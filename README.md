@@ -59,22 +59,3 @@ The application is based on a Java-based server framework and uses MongoDB as th
    - `GET /servers/find-by-name/{name}`: Find servers by name and return one or more servers found. Return 404 if nothing is found.
 
 4. **MongoDB Integration**: Implement code to store and retrieve "Server" objects in a MongoDB database. Handle the database connection and CRUD operations.
-
-## Testing
-
-5. **Test Endpoints**: Use an HTTP client like Postman or cURL to test your API endpoints. Ensure that your API functions as expected.
-
-## Running the Application
-
-6. **Run the Application**: Compile and run your Java application. Ensure it can connect to the MongoDB database.
-
-7. **Access the API**: Access your API using the URL and port provided by your server framework.
-
-## Documentation
-
-8. **API Documentation**: Document your API endpoints and how to use them. Provide examples of requests and responses. You can generate API documentation using tools like Swagger UI or write it manually in a README or documentation file.
-
-## Conclusion
-
-You have successfully implemented a REST API in Java based on the Swagger API definition. Your API can perform CRUD operations on "Server" objects stored in a MongoDB database. Ensure your application is deployable and can handle real-world use cases.
-
